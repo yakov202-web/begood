@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your Be Good account</title>
+<!--
+  The page Google Play requires.
+
+  An app that lets people create an account must let them delete it from
+  inside the app AND from a web page, and the address of this page goes into
+  the Data safety form in Play Console. The reason for the second route is
+  the obvious one: somebody who has already uninstalled the app has no way
+  back in, and "reinstall it to leave" is not a way out.
+
+  Deliberately plain. No tracking, no fonts fetched from anywhere, nothing
+  that needs a server. Drop it at begood.app/delete-account and it works.
+-->
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem 4rem;
+    font: 17px/1.65 Georgia, 'Times New Roman', serif;
+    color: #2A2318; background: #FFFCF7;
+    display: flex; justify-content: center;
+  }
+  main { width: 100%; max-width: 34rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .35rem; }
+  h2 { font-size: 1.15rem; margin: 2.25rem 0 .5rem; }
+  p, li { margin: 0 0 .9rem; }
+  ol { padding-left: 1.25rem; }
+  .lede { color: #6B6152; margin-bottom: 2rem; }
+  .box {
+    border: 1px solid #E3D9C6; border-radius: 12px;
+    padding: 1.1rem 1.25rem; margin: 1.25rem 0; background: #FFF8EC;
+  }
+  .warn { background: #FDF1E4; border-color: #E7C9A6; }
+  a { color: #8A5F14; }
+  footer { margin-top: 3rem; color: #8A8172; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #EFE7D8; background: #16130E; }
+    .lede { color: #A79C88; }
+    .box { background: #1F1A12; border-color: #3A3226; }
+    .warn { background: #241C12; border-color: #4A3A22; }
+    a { color: #D9A93A; }
+    footer { color: #857B69; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Delete your Be Good account</h1>
+<p class="lede">You do not need our permission, and you do not need to explain why.</p>
+
+<h2>From inside the app</h2>
+<p>This is the quickest way, and it happens immediately.</p>
+<ol>
+  <li>Open Be Good and go to the <strong>Me</strong> tab.</li>
+  <li>Scroll to the bottom and tap <strong>Delete my account</strong>.</li>
+  <li>Confirm. Your account is deleted at once.</li>
+</ol>
+
+<h2>If you have already uninstalled the app</h2>
+<p>Email us from the address your account was registered with, and we will delete it and write back to confirm.</p>
+<div class="box">
+  <p style="margin:0"><a href="mailto:hello@begood.app?subject=Delete%20my%20account">hello@begood.app</a></p>
+</div>
+
+<h2>What is deleted</h2>
+<p>Your profile, your photo, the lines you wrote about yourself, your private
+details and the address gifts were sent to. All of it, permanently. Neither you
+nor we can get it back afterwards.</p>
+
+<h2>What is kept, and for how long</h2>
+<p>A record of payments made through Google Play is kept for as long as tax and
+accounting law requires us to keep it. It holds no name, no address and no
+contact detail — only that a payment happened and when.</p>
+<p>A gift already in the post cannot be recalled, and the person it is going to
+will still receive it.</p>
+
+<h2>Your membership is billed by Google, not by us</h2>
+<div class="box warn">
+  <p><strong>Deleting your account does not cancel your membership.</strong> A Google
+  Play subscription lives in your Google account rather than in ours, so it keeps
+  renewing — and keeps charging you — until you cancel it there.</p>
+  <p style="margin:0">Cancel it at
+  <a href="https://play.google.com/store/account/subscriptions">play.google.com/store/account/subscriptions</a>,
+  then delete your account here. You keep your membership until the end of the
+  period you have already paid for.</p>
+</div>
+
+<footer>Be Good · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></footer>
+
+</main>
+</body>
+</html>
